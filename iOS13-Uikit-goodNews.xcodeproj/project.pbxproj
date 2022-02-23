@@ -13,6 +13,7 @@
 		84E5F77127C681B9007A5E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E5F77027C681B9007A5E8C /* Assets.xcassets */; };
 		84E5F77427C681B9007A5E8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E5F77227C681B9007A5E8C /* LaunchScreen.storyboard */; };
 		84E5F77D27C68211007A5E8C /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5F77C27C68211007A5E8C /* NewsListTableViewController.swift */; };
+		84E5F78127C690B1007A5E8C /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5F78027C690B1007A5E8C /* Webservice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		84E5F77327C681B9007A5E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E5F77527C681B9007A5E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84E5F77C27C68211007A5E8C /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
+		84E5F78027C690B1007A5E8C /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		84E5F76627C681B7007A5E8C /* iOS13-Uikit-goodNews */ = {
 			isa = PBXGroup;
 			children = (
+				84E5F77E27C69092007A5E8C /* Services */,
 				84E5F77B27C681ED007A5E8C /* Controllers */,
 				84E5F76727C681B7007A5E8C /* AppDelegate.swift */,
 				84E5F76927C681B7007A5E8C /* SceneDelegate.swift */,
@@ -73,6 +76,14 @@
 				84E5F77C27C68211007A5E8C /* NewsListTableViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84E5F77E27C69092007A5E8C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				84E5F78027C690B1007A5E8C /* Webservice.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 			files = (
 				84E5F76827C681B7007A5E8C /* AppDelegate.swift in Sources */,
 				84E5F77D27C68211007A5E8C /* NewsListTableViewController.swift in Sources */,
+				84E5F78127C690B1007A5E8C /* Webservice.swift in Sources */,
 				84E5F76A27C681B7007A5E8C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
