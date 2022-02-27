@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="80" id="hPd-nP-5IK" customClass="ArticleTableViewCell" customModule="iOS13_Uikit_goodNews" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ArticleTableViewCell" rowHeight="80" id="hPd-nP-5IK" customClass="ArticleTableViewCell" customModule="iOS13_Uikit_goodNews" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="24.5" width="414" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hPd-nP-5IK" id="sbT-K6-5k2">
@@ -49,6 +49,10 @@
                                         <constraint firstItem="cmi-be-io7" firstAttribute="top" secondItem="sbT-K6-5k2" secondAttribute="topMargin" id="Voj-ki-n2y"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="A2P-Tq-QQn" id="DhF-QP-Wde"/>
+                                    <outlet property="titleLabel" destination="vr4-qq-iTM" id="CMQ-f1-ru0"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
